@@ -11,7 +11,7 @@ section{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  max-width: 700px;
+  max-width: 900px;
   margin-top: 100px;
   background-color: #FFFFFF;
   padding: 15px;
@@ -78,6 +78,8 @@ header{
 
 .link-icon{
   text-decoration: none;
+  padding: 10px;
+  
 }
 
 
@@ -162,7 +164,7 @@ section ol li{
 }
 
 .midias-sociais ul li a img{
-  width: 35px;
+  width: 195px;
   transition: .5s;
 }
 
@@ -171,8 +173,12 @@ section ol li{
 }
 
 
-@media only screen and (min-width: 530px){
-  section h1{
+@media only screen and (min-width: 767px){
+    section{
+        max-width: 800px;
+    }
+  
+    section h1{
     font-size: 2rem;
   }
   
@@ -194,7 +200,13 @@ section ol li{
     font-size: 35px;
     transition: .6s;
   }
-  
+
+  .link-icon{
+    padding: 5px;    
+  }
+  .midias-sociais ul li a img{
+    width: 45px;
+  }
   
 }
 
