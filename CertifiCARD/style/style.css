@@ -78,8 +78,8 @@ header{
 
 .link-icon{
   text-decoration: none;
-  padding: 10px;
-  
+  padding: 15px;
+  width: 50px;
 }
 
 
@@ -164,16 +164,19 @@ section ol li{
 }
 
 .midias-sociais ul li a img{
-  width: 195px;
+  width: 60px;
   transition: .5s;
 }
+.midias-sociais ul li p{
+    font-size: 2rem;
+  }
 
 .midias-sociais ul li a:hover img{
   transform: scale(1.2) translateY(-10px);
 }
 
 
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 768px){
     section{
         max-width: 800px;
     }
@@ -200,13 +203,7 @@ section ol li{
     font-size: 35px;
     transition: .6s;
   }
-
-  .link-icon{
-    padding: 5px;    
-  }
-  .midias-sociais ul li a img{
-    width: 45px;
-  }
+  
   
 }
 
